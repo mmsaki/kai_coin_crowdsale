@@ -13,7 +13,7 @@ I then compiled and successfully deployed my `KaseiCoincrowdsale.sol` smart cont
 ![KaseiCoinCrowdsale Contract](./images/crowdsale_contract.jpg)
 
 
-## CrowdsaleDeployer Contract deployed and walkthrough interaction (Video)
+### CrowdsaleDeployer Contract deployed and walkthrough interaction
 
 ![Walkthrough Video](./images/kaiCoin_crowdsale.gif)
 
