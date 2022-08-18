@@ -17,4 +17,7 @@ I then compiled and successfully deployed my `KaseiCoincrowdsale.sol` smart cont
 
 ![Walkthrough Video](./images/kaiCoin_crowdsale.gif)
 
-I was able to reaise **300 ETH** and can confirm that the crowdsale worked and was **finalized**. After finalization, the wallets that deposited ether can withdraw their tokens. There is possibilty to withraw your tokens before the crowdsale has been finalized.
+> Above here you will see walkthrough. Wait for about **30 seconds** as it takes time for it to load on github. 
+
+I am able to deploy `KaseiCoinCrowdsaleDeployer` which after deploying I can call my `kasei_crowdsale_address` and `kasei_token_address`. I then selected my contracts and added the addresses to view and intereact with them in the editor configuration with the provided addresses. I confirm that `isOpen` is **true** and proceed to buy **50 Ether** with the first accoung as the beneficiary, then, another **250 Ether** with a second test account from my metamask. I check and confirm that `goalReached` is **true** and check `weiRaised`. You can alsoe confirm that the `closingTime` has reached in order to call `finalized` for the crowdsale. I made sure to import the **KAI** coin to my metamask to see the balance. After the crowsale is finalized I first call `withdrawTokens` and add the beneficiary address. This will withdraw that tokens to the address and also send the ether raised to the crowsale payable address. Checking metamask you can see that **250 KAI** wais deposited to the second account and **50 KAI** deposited in the first account. Going back to the `KaseiCoin` token address we can call `totalSupply` and we see `300000000000000000000` wei which is equivalent to `300` ether. 
+ 
