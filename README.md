@@ -19,7 +19,7 @@ I then compiled `KaseiCoincrowdsale.sol` contract below.
 
 <p align = "center"> :vhs::vhs::vhs: </p>
 
-![Walkthrough Video](./images/kaiCoin_crowdsale.gif)
+![Walkthrough Video](./images/output.gif)
 
 > Above here you will see a video walkthrough. Wait for about **30 to 40 seconds** as it takes time for it to load on github. 
 
