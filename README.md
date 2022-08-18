@@ -2,7 +2,7 @@
 
 # KAI Coin crowdsale
 
-The goal of this project is to deploy a **crowdsale** contract for a token. I imported contracts from [open zeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/Crowdsale.sol). The crowdsale is to be deployed with a rate of 1, where one token equal one Wei. The goal if to reaise **300 Ether**. For demonstration purposes the crowdsale is timed to now + 10 minutes, where now is the block time when the contract is deployed. 
+The goal of this project is to deploy a **crowdsale** contract for a token. I imported contracts from [open zeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/Crowdsale.sol). The crowdsale is to be deployed with a rate of **1 Wei** to KAI token. The goal if to reaise **300 Ether**. For demonstration purposes the crowdsale is timed to now + 10 minutes, where **now** is the block time at the time of contract is deployment. 
 
 ### KaseiCoin ERC20 contract compiled ✅
 I first deployed the `KaseiCoin.sol` contract which is the ERC20 token contract. Here is a successful compilation of the contract. 
