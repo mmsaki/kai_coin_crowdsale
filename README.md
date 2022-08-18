@@ -5,17 +5,17 @@
 The goal of this project is to deploy a **crowdsale** contract for a token. I imported contracts from [open zeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/Crowdsale.sol). The crowdsale is to be deployed with a rate of **1 Wei** to KAI token. The goal if to reaise **300 Ether**. For demonstration purposes the crowdsale is timed to now + 10 minutes, where **now** is the block time at the time of contract is deployment. 
 
 ### KaseiCoin ERC20 contract compiled ✅
-I first deployed the `KaseiCoin.sol` contract which is the ERC20 token contract. Here is a successful compilation of the contract. 
+I first compiled `KaseiCoin.sol` contract which is the ERC20 token contract for KAI. 
 
 ![KaseiCoin ERC20 contract](./images/kai_coin.jpg)
 
 ### KaseiCoinCrowdsale Contract compiled ✅
-I then compiled and successfully deployed my `KaseiCoincrowdsale.sol` smart contract. Heres is the confirmations.
+I then compiled `KaseiCoincrowdsale.sol` contract below.
 
 ![KaseiCoinCrowdsale Contract](./images/crowdsale_contract.jpg)
 
 
-### CrowdsaleDeployer Contract deployed and walkthrough interaction
+### Deploy KaiCoinCrowdsaleDeployer Contract and interaction with KaiCoinCrowdsale
 
 <p align = "center"> :vhs::vhs::vhs: </p>
 
