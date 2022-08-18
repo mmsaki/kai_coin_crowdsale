@@ -15,6 +15,8 @@ I then compiled and successfully deployed my `KaseiCoincrowdsale.sol` smart cont
 
 ### CrowdsaleDeployer Contract deployed and walkthrough interaction
 
+<p align = "center"> :vhs::vhs::vhs: </p>
+
 ![Walkthrough Video](./images/kaiCoin_crowdsale.gif)
 
 > Above here you will see walkthrough. Wait for about **30 seconds** as it takes time for it to load on github. 
